@@ -1,0 +1,40 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: kadet11415/nightscout-caregiver
+  tag: 2.0@sha256:ca672082b101e5f2d950dd05e8666fe05bc563ab2d09f59e600900ef3d1193cc
+persistence: {}
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsGroup: 0
+    runAsUser: 0
+service:
+  main:
+    ports:
+      main:
+        port: 1337
+        protocol: tcp
+        targetPort: 1337
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            API_SECRET: ""
+            BASE_URL: ""
+            BG_HIGH: ""
+            BG_LOW: ""
+            BG_TARGET_BOTTOM: ""
+            BG_TARGET_TOP: ""
+            DISPLAY_UNITS: ""
+            ENABLE:
+              delta direction upbat timeago devicestatus errorcodes ar2 simplealarms
+              profile
+            INSECURE_USE_http: "true"
+            MONGO_CONNECTION: mongodb://db-user:db-password@mongodb-instance:port/db-name
+            THEME: colors
+            TIME_FORMAT: "24"
