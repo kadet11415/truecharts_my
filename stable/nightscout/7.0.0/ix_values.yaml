@@ -1,7 +1,7 @@
 image:
   pullPolicy: IfNotPresent
   repository: kadet11415/nightscout-caregiver
-  tag: 2.0
+  tag: 2.0@sha256:ca672082b101e5f2d950dd05e8666fe05bc563ab2d09f59e600900ef3d1193cc
 persistence: {}
 portal:
   open:

@@ -29,7 +29,7 @@ name: nightscout
 sources:
   - https://github.com/nightscout/cgm-remote-monitor
   - https://github.com/truecharts/charts/tree/master/charts/stable/nightscout
-  - https://hub.docker.com/r/nightscout/cgm-remote-monitor-travis
-  - https://registry.hub.docker.com/r/nightscout/cgm-remote-monitor-travis
+  - https://hub.docker.com/r/kadet11415/nightscout-caregiver
+  - https://registry.hub.docker.com/r/kadet11415/nightscout-caregiver
 type: application
-version: 6.0.9
+version: 7.0.0
