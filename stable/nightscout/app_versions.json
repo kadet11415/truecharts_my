@@ -1,17 +1,17 @@
 {
-    "7.0.0": {
+    "7.2.0": {
         "healthy": true,
         "supported": true,
         "healthy_error": null,
-        "location": "/home/runner/_work/catalog/catalog/stable/nightscout/7.0.0",
+        "location": "/home/runner/_work/catalog/catalog/stable/nightscout/7.2.0",
         "last_update": "2024-05-29 12:35:14",
         "required_features": [
             "definitions/interface",
             "normalize/interfaceConfiguration",
             "definitions/certificate"
         ],
-        "human_version": "latest_7.0.0",
-        "version": "7.0.0",
+        "human_version": "latest_7.2.0",
+        "version": "7.2.0",
         "chart_metadata": {
             "annotations": {
                 "truecharts.org/category": "Cloud",
@@ -56,7 +56,7 @@
                 "https://registry.hub.docker.com/r/nightscout/cgm-remote-monitor-travis"
             ],
             "type": "application",
-            "version": "7.0.0"
+            "version": "7.2.0"
         },
         "app_metadata": null,
         "schema": {
